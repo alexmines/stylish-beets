@@ -2,13 +2,32 @@ html {
   background-color: #c9b5ab;
 }
 
-h1 {
+h1, h2 {
   font-family: "PT Sans";
-  colof: #3f1622;
+  color: #3f1622;
 }
 
 nav {
   font-family: "PT Sans";
   color: #8f2440;
 
+}
+
+img {
+  width: 100%
+}
+
+figcaption, p, {
+  font-family: "PT Serif";
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.125rem;
+  font-style:italic;
+}
+
+p:first-child {
+  font-weight: bold;
+  font-size: 1.125rem;
 }
