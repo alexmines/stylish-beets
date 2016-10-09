@@ -31,3 +31,47 @@ p:first-child {
   font-weight: bold;
   font-size: 1.125rem;
 }
+
+li:nth-last-child(3) {
+  font-size: 1.125rem;
+  font-family: "PT Serif"
+}
+
+li:nth-last-child(2) {
+  font-size: 1.125rem;
+  font-family: "PT Serif"
+}
+
+blockquote {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+cite {
+  font-family: "PT Serif"
+  font-size: 0.8rem;
+  text-align:center;
+}
+
+ol li {
+  font-size: 1.125rem;
+  list-style-type: lower-greek;
+  font-family: "Pt Serif";
+}
+
+dl dt {
+  font-weight:bold;
+  font-size: 1.125rem;
+  font-family: "Pt Serif"
+}
+
+dl dd {
+  font-family: "Pt Serif"
+}
+
+ul li {
+  font-size: 0.8rem;
+  list-style-type: circle;
+  font-family: "Pt Serif"
+}
