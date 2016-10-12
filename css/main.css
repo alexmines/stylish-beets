@@ -4,13 +4,18 @@ html {
 }
 
 h1, h2 {
+  font-weight: bold;
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
-nav {
+header nav ol li {
   font-family: "PT Sans", sans-serif;
   color: #8f2440;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 1.125rem;
 }
 
 img {
@@ -27,7 +32,7 @@ figcaption {
   font-style:italic;
 }
 
-p:first-child {
+#first-child {
   font-size: 1.125rem;
   font-weight: bold;
 }
