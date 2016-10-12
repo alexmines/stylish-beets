@@ -4,8 +4,8 @@ html {
 }
 
 h1, h2 {
-  font-weight: bold;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
   color: #3f1622;
 }
 
@@ -43,7 +43,6 @@ p {
 }
 
 blockquote {
-  font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -51,7 +50,7 @@ blockquote {
 cite {
   font-family: "PT Serif", serif;
   font-size: 0.8rem;
-  text-align:center;
+  display:block;
 }
 
 ol li {
@@ -84,4 +83,9 @@ a {
 a:hover {
   text-decoration: underline;
   color: #222;
+}
+
+a.new-link {
+  font-weight: bold;
+  text-decoration: none;
 }
